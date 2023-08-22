@@ -1,0 +1,17 @@
+h1 {
+    background-color: rosybrown;
+}
+.paraghaph-1 {
+    background: chocolate;
+    font-size: 18pt;
+    color:maroon;
+}
+
+.paraghaph-2 {
+    border: 5px solid rgb(181, 102, 201);
+    font-size: 20pt;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    font-family: 'Segoe UI';
+}
