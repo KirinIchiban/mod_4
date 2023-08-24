@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('price', models.DecimalField(decimal_places=2, max_digits=10, verbose_name='Цена')),
                 ('auction', models.BooleanField(help_text='Отметьте, если торг уместен', verbose_name='Торг')),
                 ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Дата и время создания')),
-                ('update_at', models.DateField(auto_now=True, verbose_name='Дата и время изменения')),
+                ('update_at', models.DateTimeField(auto_now_add=True, verbose_name='Дата и время изменения')),
             ],
         ),
     ]
